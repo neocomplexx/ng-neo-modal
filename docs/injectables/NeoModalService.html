@@ -1,0 +1,1684 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>neo-modal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	    <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">neo-modal</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+                <input type="text" placeholder="Type to search">
+            </div>
+            <nav>
+            
+                <ul class="list">
+            
+                    <li class="title">
+                        <a href="../index.html">neo-modal</a>
+                    </li>
+            
+                    <li class="divider"></li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                        <ul class="links">
+                                <li class="link">
+                                    <a 
+                                        
+                                         href="../overview.html" 
+                                         href="../overview.html" 
+                                        >
+                                        <span class="fa fa-th"></span>Overview
+                                    </a>
+                                </li>
+                                <li class="link">
+                                  <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../modules.html" >
+                            <div class="menu-toggler linked" data-toggle="collapse"
+                                    data-target="#xs-modules-links"
+                            >
+                                <span class="fa fa-archive"></span>
+                                <span class="link-name">Modules</span>
+                                <span class="fa fa-angle-down"></span>
+                            </div>
+                        </a>
+                        <ul class="links collapse "
+                                id="xs-modules-links"
+                            >
+                                <li class="link">
+                                    <a href="../modules/AppModule.html" >AppModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../modules/NeoModalModule.html" >NeoModalModule</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../modules/NeoModalModule.html" >NeoModalModule</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-components-links"
+                            >
+                            <span class="fa fa-cogs"></span>
+                            <span>Components</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-components-links"
+                            >
+                                <li class="link">
+                                    <a href="../components/AppComponent.html" >AppComponent</a>
+                                </li>
+                                <li class="link">
+                                    <a href="../components/NeoModalComponent.html" >NeoModalComponent</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-classes-links"
+                            >
+                            <span class="fa fa-file-code-o"></span>
+                            <span>Classes</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-classes-links"
+                            >
+                                <li class="link">
+                                    <a href="../classes/AlertResult.html" >AlertResult</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-injectables-links"
+                            >
+                            <span class="fa fa-long-arrow-down"></span>
+                            <span>Injectables</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-injectables-links"
+                            >
+                                <li class="link">
+                                    <a href="../injectables/NeoModalService.html"  data-type="entity-link" class="active" >NeoModalService</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+            
+            
+                    <li class="chapter">
+                        <div class="simple menu-toggler" data-toggle="collapse"
+                                data-target="#xs-miscellaneous-links"
+                            >
+                            <span class="fa fa-cubes"></span>
+                            <span>Miscellaneous</span>
+                            <span class="fa fa-angle-down"></span>
+                        </div>
+                        <ul class="links collapse "
+                                id="xs-miscellaneous-links"
+                            >
+                                <li class="link">
+                                  <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                </li>
+                        </ul>
+                    </li>
+            
+            
+                    <li class="chapter">
+                        <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                    </li>
+            
+            
+                </ul>
+            
+            </nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+                   
+                       <ul class="list">
+                   
+                           <li class="title">
+                               <a href="../index.html">neo-modal</a>
+                           </li>
+                   
+                           <li class="divider"></li>
+                   
+                               <div id="book-search-input" role="search">
+                                   <input type="text" placeholder="Type to search">
+                               </div>
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../index.html"><span class="fa fa-home"></span>Getting started</a>
+                               <ul class="links">
+                                       <li class="link">
+                                           <a 
+                                               
+                                                href="../overview.html" 
+                                                href="../overview.html" 
+                                               >
+                                               <span class="fa fa-th"></span>Overview
+                                           </a>
+                                       </li>
+                                       <li class="link">
+                                         <a href="../index.html" ><span class="fa fa-file-text-o"></span>README</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../modules.html" >
+                                   <div class="menu-toggler linked" data-toggle="collapse"
+                                           data-target="#modules-links"
+                                   >
+                                       <span class="fa fa-archive"></span>
+                                       <span class="link-name">Modules</span>
+                                       <span class="fa fa-angle-down"></span>
+                                   </div>
+                               </a>
+                               <ul class="links collapse "
+                                       id="modules-links"
+                   >
+                                       <li class="link">
+                                           <a href="../modules/AppModule.html" >AppModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../modules/NeoModalModule.html" >NeoModalModule</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../modules/NeoModalModule.html" >NeoModalModule</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#components-links"
+                   >
+                                   <span class="fa fa-cogs"></span>
+                                   <span>Components</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="components-links"
+                   >
+                                       <li class="link">
+                                           <a href="../components/AppComponent.html" >AppComponent</a>
+                                       </li>
+                                       <li class="link">
+                                           <a href="../components/NeoModalComponent.html" >NeoModalComponent</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#classes-links"
+                   >
+                                   <span class="fa fa-file-code-o"></span>
+                                   <span>Classes</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="classes-links"
+                   >
+                                       <li class="link">
+                                           <a href="../classes/AlertResult.html" >AlertResult</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#injectables-links"
+                   >
+                                   <span class="fa fa-long-arrow-down"></span>
+                                   <span>Injectables</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="injectables-links"
+                   >
+                                       <li class="link">
+                                           <a href="../injectables/NeoModalService.html"  data-type="entity-link" class="active" >NeoModalService</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                   
+                   
+                           <li class="chapter">
+                               <div class="simple menu-toggler" data-toggle="collapse"
+                                       data-target="#miscellaneous-links"
+                   >
+                                   <span class="fa fa-cubes"></span>
+                                   <span>Miscellaneous</span>
+                                   <span class="fa fa-angle-down"></span>
+                               </div>
+                               <ul class="links collapse "
+                                       id="miscellaneous-links"
+                   >
+                                       <li class="link">
+                                         <a href="../miscellaneous/enumerations.html" data-type="entity-link" >Enums</a>
+                                       </li>
+                               </ul>
+                           </li>
+                   
+                   
+                           <li class="chapter">
+                               <a data-type="chapter-link" href="../coverage.html" ><span class="fa fa-tasks"></span>Documentation coverage</a>
+                           </li>
+                   
+                   
+                       </ul>
+                   
+                   </nav>
+               </div>
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Injectables</li>
+  <li>NeoModalService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="active">
+        <a href="#info" id="info-tab" role="tab" data-toggle="tab" data-link="info">Info</a>
+    </li>
+
+
+    <li>
+        <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/neo-modal.service.ts</code>
+        </p>
+
+
+
+            <section>
+                <h3 id="index">Index</h3>
+                <table class="table table-sm table-bordered index-table">
+                    <tbody>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Properties</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                            <span class="modifier">Public</span>
+                                        <a href="#originalAlert">originalAlert</a>
+                                    </li>
+                                    <li>
+                                        <a href="#template">template</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <h6><b>Methods</b></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <ul class="index-list">
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        <a href="#alert">alert</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Private</span>
+                                        <a href="#custom">custom</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        <a href="#decision">decision</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        <a href="#error">error</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        <a href="#info">info</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        <a href="#input">input</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Private</span>
+                                        <a href="#openModal">openModal</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        <a href="#success">success</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        <a href="#warning">warning</a>
+                                    </li>
+                                    <li>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        <a href="#yesNoCancel">yesNoCancel</a>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 id="constructor">Constructor</h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <code>constructor(modalService: NgbModal)</code>
+                                </td>
+                            </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/neo-modal.service.ts:10</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div>
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>modalService</td>
+                                                              <td>
+                                                                        <code>NgbModal</code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                
+                    <h3 id="methods">
+                        Methods
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="alert"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        alert
+                                        </b>
+                                        <a href="#alert"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>alert(msg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/neo-modal.service.ts:42</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Show message. Can be use as window.alert</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>msg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Mensaje a mostrar</p>
+            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code>Promise&lt;void&gt;</code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="custom"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Private</span>
+                                        custom
+                                        </b>
+                                        <a href="#custom"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>custom(title: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, message: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, buttons: <a href="../miscellaneouss/AlertButton.html">AlertButton</a>, buttonFocus: <a href="../miscellaneouss/AlertButton.html">AlertButton</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="226" class="link-to-prism">src/neo-modal.service.ts:226</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>title</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>message</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>buttons</td>
+                                                              <td>
+                                                                      <code><a href="../miscellaneous/enumerations.html#AlertButton" target="_self" >AlertButton</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>buttonFocus</td>
+                                                              <td>
+                                                                      <code><a href="../miscellaneous/enumerations.html#AlertButton" target="_self" >AlertButton</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/AlertResult.html" target="_self" >Promise&lt;AlertResult&gt;</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="decision"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        decision
+                                        </b>
+                                        <a href="#decision"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>decision(questionMsg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, successMsg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, cancelMsg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="160" class="link-to-prism">src/neo-modal.service.ts:160</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Show decission modal with question and two options for accept or reject.</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>questionMsg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Info message</p>
+            </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>successMsg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Message if accept</p>
+            </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>cancelMsg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Message if reject</p>
+            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/AlertResult.html" target="_self" >Promise&lt;AlertResult&gt;</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                <p>Promise based in user choise</p>
+            
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="error"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        error
+                                        </b>
+                                        <a href="#error"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>error(msg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="112" class="link-to-prism">src/neo-modal.service.ts:112</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Error message</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>msg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Message</p>
+            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/AlertResult.html" target="_self" >Promise&lt;AlertResult&gt;</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="info"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        info
+                                        </b>
+                                        <a href="#info"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>info(msg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="135" class="link-to-prism">src/neo-modal.service.ts:135</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Information message</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>msg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Message</p>
+            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/AlertResult.html" target="_self" >Promise&lt;AlertResult&gt;</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="input"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        input
+                                        </b>
+                                        <a href="#input"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>input(title: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, placeholder: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, successMsg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="194" class="link-to-prism">src/neo-modal.service.ts:194</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Input text message</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>title</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>placeholder</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Input placeholder</p>
+            </td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>successMsg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Succes message, if null will show nothing</p>
+            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/AlertResult.html" target="_self" >Promise&lt;AlertResult&gt;</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                <p>Promise with user input</p>
+            
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="openModal"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Private</span>
+                                        openModal
+                                        </b>
+                                        <a href="#openModal"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>openModal(config: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="21" class="link-to-prism">src/neo-modal.service.ts:21</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>config</td>
+                                                              <td>
+                                                                      <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code>Promise&lt;any&gt;</code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="success"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        success
+                                        </b>
+                                        <a href="#success"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>success(msg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="65" class="link-to-prism">src/neo-modal.service.ts:65</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Show succsessfull  message</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>msg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Message</p>
+            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/AlertResult.html" target="_self" >Promise&lt;AlertResult&gt;</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="warning"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        warning
+                                        </b>
+                                        <a href="#warning"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>warning(msg: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="88" class="link-to-prism">src/neo-modal.service.ts:88</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+                                        <div class="io-description"><p>Warning message</p>
+            </div>
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>msg</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td><p>Message</p>
+            </td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/AlertResult.html" target="_self" >Promise&lt;AlertResult&gt;</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="yesNoCancel"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier"></span>
+                                            <span class="modifier">Public</span>
+                                        yesNoCancel
+                                        </b>
+                                        <a href="#yesNoCancel"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                        <span class="modifier-icon fa fa-reset"></span>
+                                    <code>yesNoCancel(title: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, message: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, buttonFocus: <a href="../miscellaneouss/AlertButton.html">AlertButton</a>)</code>
+                                </td>
+                            </tr>
+            
+            
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="221" class="link-to-prism">src/neo-modal.service.ts:221</a></div>
+                                        </td>
+                                    </tr>
+            
+                            <tr>
+                                <td class="col-md-4">
+            
+                                        <div class="io-description">
+                                                <b>Parameters :</b>
+                                                <table class="params">
+                                                    <thead>
+                                                        <tr>
+                                                            <td>Name</td>
+                                                            <td>Type</td>
+                                                            <td>Optional</td>
+                                                            <td>Description</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            <tr>
+                                                              <td>title</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>message</td>
+                                                              <td>
+                                                                      <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td>buttonFocus</td>
+                                                              <td>
+                                                                      <code><a href="../miscellaneous/enumerations.html#AlertButton" target="_self" >AlertButton</a></code>
+                                                              </td>
+                                                              <td>
+                                                              </td>
+                                                              <td></td>
+                                                            </tr>
+                                                    </tbody>
+                                                </table>
+                                        </div>
+                                        <div>
+                                        </div>
+                                        <div class="io-description">
+                                            <b>Returns : </b>    <code><a href="../classes/AlertResult.html" target="_self" >Promise&lt;AlertResult&gt;</a></code>
+            
+                                        </div>
+                                            <div class="io-description">
+                                                
+                                            </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </section>
+
+            <section>
+                
+                    <h3 id="inputs">
+                        Properties
+                    </h3>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="originalAlert"></a>
+                                    <span class="name">
+                                        <b>
+                                            <span class="modifier">Public</span>
+                                        originalAlert
+                                        </b>
+                                        <a href="#originalAlert"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <span class="modifier-icon fa fa-reset"></span><code>originalAlert:     <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Type : </i>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+            
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="10" class="link-to-prism">src/neo-modal.service.ts:10</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+                    <table class="table table-sm table-bordered">
+                        <tbody>
+                            <tr>
+                                <td class="col-md-4">
+                                    <a name="template"></a>
+                                    <span class="name">
+                                        <b>
+                                        template
+                                        </b>
+                                        <a href="#template"><span class="fa fa-link"></span></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <code>template:     <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+            </code>
+                                </td>
+                            </tr>
+                                <tr>
+                                    <td class="col-md-4">
+                                        <i>Type : </i>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+            
+                                    </td>
+                                </tr>
+                                    <tr>
+                                        <td class="col-md-4">
+                                            <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/neo-modal.service.ts:8</a></div>
+                                        </td>
+                                    </tr>
+            
+            
+                        </tbody>
+                    </table>
+            </section>
+
+    </div>
+
+
+    <div class="tab-pane fade tab-source-code" id="c-source">
+        <pre class="line-numbers"><code class="language-typescript">import { Injectable } from &#x27;@angular/core&#x27;;
+import { NeoModalComponent, AlertResult, AlertButton } from &#x27;./neo-modal.component&#x27;;
+import { NgbModal } from &#x27;@ng-bootstrap/ng-bootstrap&#x27;;
+import * as _ from &#x27;lodash&#x27;;
+
+@Injectable()
+export class NeoModalService {
+  template: any;
+
+  public originalAlert: any;
+
+  constructor(private modalService: NgbModal) {
+    const that: NeoModalService &#x3D; this;
+
+    this.originalAlert &#x3D; window.alert;
+    window.alert &#x3D; async function(msg) {
+      await that.alert(msg);
+    }
+  }
+
+  private async openModal(config: any): Promise&lt;any&gt; {
+    const modalRef &#x3D; this.modalService.open(NeoModalComponent, {
+      backdrop : &#x27;static&#x27;,
+      keyboard : false,
+      windowClass : &#x27;neoWindow&#x27;
+    });
+
+    modalRef.componentInstance &#x3D; _.merge(modalRef.componentInstance.config, config);
+    modalRef.componentInstance.changeRef.markForCheck();
+
+    return await modalRef.result;
+  }
+
+
+   /**
+   *
+   * Show message. Can be use as window.alert
+   * @param {string} msg Mensaje a mostrar
+   * @returns {Promise&lt;void&gt;}
+   * @memberof AlertService
+   */
+  public async alert(msg: string): Promise&lt;void&gt; {
+
+    const config &#x3D; {
+      title: {
+        visibility: false
+      },
+      message: msg,
+      button: {
+        cancel: {
+          visibility: false
+        }
+      }
+    }
+    await this.openModal(config);
+  }
+
+  /**
+   *
+   * Show succsessfull  message
+   * @param {string} msg Message
+   * @returns {Promise&lt;AlertResult&gt;}
+   * @memberof AlertService
+   */
+  public async success(msg: string): Promise&lt;AlertResult&gt; {
+    const config &#x3D; {
+      title: {
+        text: &#x27;Buen trabajo!&#x27;
+      },
+      message: msg,
+      type: &#x27;success&#x27;,
+      button: {
+        cancel: {
+          visibility: false
+        }
+      }
+    }
+    return this.openModal(config);
+  }
+
+   /**
+   *
+   * Warning message
+   * @param {string} msg Message
+   * @returns {Promise&lt;AlertResult&gt;}
+   * @memberof AlertService
+   */
+  public async warning(msg: string): Promise&lt;AlertResult&gt; {
+    const config &#x3D; {
+      title: {
+        text: &#x27;Cuidado!&#x27;
+      },
+      message: msg,
+      type: &#x27;warning&#x27;,
+      button: {
+        cancel: {
+          visibility: false
+        }
+      }
+    }
+
+    return this.openModal(config);
+  }
+
+    /**
+   *
+   * Error message
+   * @param {string} msg Message
+   * @returns {Promise&lt;AlertResult&gt;}
+   * @memberof AlertService
+   */
+  public async error(msg: string): Promise&lt;AlertResult&gt; {
+    const config &#x3D; {
+      title: {
+        text: &#x27;Error!&#x27;
+      },
+      message: msg,
+      type: &#x27;error&#x27;,
+      button: {
+        cancel: {
+          visibility: false
+        }
+      }
+    }
+    return this.openModal(config);
+  }
+
+  /**
+   *
+   * Information message
+   * @param {string} msg Message
+   * @returns {Promise&lt;AlertResult&gt;}
+   * @memberof AlertService
+   */
+  public async info(msg: string): Promise&lt;AlertResult&gt; {
+    const config &#x3D; {
+      title: {
+        text: &#x27;Información importante!&#x27;
+      },
+      message: msg,
+      type: &#x27;info&#x27;,
+      button: {
+        cancel: {
+          visibility: false
+        }
+      }
+    }
+    return this.openModal(config);
+  }
+
+  /**
+   *
+   * Show decission modal with question and two options for accept or reject.
+   * @param {string} questionMsg Info message
+   * @param {string} successMsg Message if accept
+   * @param {string} cancelMsg Message if reject
+   * @returns {Promise&lt;AlertResult&gt;} Promise based in user choise
+   * @memberof AlertService
+   */
+  public async decision(questionMsg: string, successMsg: string, cancelMsg: string): Promise&lt;AlertResult&gt; {
+
+    const config &#x3D; {
+      title: {
+        text: &#x27;Estas seguro?&#x27;
+      },
+      message: questionMsg,
+      type: &#x27;question&#x27;
+    }
+    const that: NeoModalService &#x3D; this;
+
+    return this.openModal(config)
+    .then( (value) &#x3D;&gt; {
+      if (value.ButtonResponse &#x3D;&#x3D;&#x3D; AlertButton.Accept)  {
+        if (successMsg !&#x3D;&#x3D; &#x27;&#x27;) {
+          that.success(successMsg);
+        }
+      }else {
+        that.info(cancelMsg);
+      }
+      return Promise.resolve(value);
+    })
+
+  }
+
+  /**
+   *
+   * Input text message
+   * @param {string} msg Message to user
+   * @param {string} placeholder Input placeholder
+   * @param {string} successMsg Succes message, if null will show nothing
+   * @returns {Promise&lt;AlertResult&gt;} Promise with user input
+   * @memberof AlertService
+   */
+  public async input(title: string, placeholder: string, successMsg: string): Promise&lt;AlertResult&gt; {
+    const config &#x3D; {
+      title: {
+        text: title
+      },
+      message: &#x27;&#x27;,
+      input: {
+        placeholder,
+        visibility: true
+      }
+    }
+    const that: NeoModalService &#x3D; this;
+
+   return this.openModal(config)
+     .then((value) &#x3D;&gt; {
+      if (value.ButtonResponse &#x3D;&#x3D;&#x3D; AlertButton.Accept)  {
+        if (successMsg) {
+          that.success(successMsg);
+        }
+      }
+      return Promise.resolve(value);
+    })
+
+
+
+  }
+
+  public async yesNoCancel(title: string, message: string, buttonFocus: AlertButton): Promise&lt;AlertResult&gt; {
+
+     return this.custom(title, message, (AlertButton.Yes | AlertButton.No | AlertButton.Cancel), AlertButton.No);
+   }
+
+   private async custom(title: string, message: string, buttons: AlertButton, buttonFocus: AlertButton): Promise&lt;AlertResult&gt; {
+    const buttonAccept: boolean &#x3D; (buttons &amp; AlertButton.Accept) &gt; 0;
+    const buttonYes: boolean &#x3D; (buttons &amp; AlertButton.Yes) &gt; 0;
+    const buttonCancel: boolean &#x3D; (buttons &amp; AlertButton.Cancel) &gt; 0;
+    const buttonNo: boolean &#x3D; (buttons &amp; AlertButton.No) &gt; 0;
+    const buttonRetry: boolean &#x3D; (buttons &amp; AlertButton.Retry) &gt; 0;
+
+    const buttonAcceptFocus: boolean &#x3D; buttonFocus &#x3D;&#x3D;&#x3D; AlertButton.Accept;
+    const buttonYesFocus: boolean &#x3D; buttonFocus &#x3D;&#x3D;&#x3D; AlertButton.Yes;
+    const buttonCancelFocus: boolean &#x3D; buttonFocus &#x3D;&#x3D;&#x3D; AlertButton.Cancel;
+    const buttonNoFocus: boolean &#x3D; buttonFocus &#x3D;&#x3D;&#x3D; AlertButton.No;
+    const buttonRetryFocus: boolean &#x3D; buttonFocus &#x3D;&#x3D;&#x3D; AlertButton.Retry;
+
+    const config &#x3D; {
+      title: {
+        text: title
+      },
+      message,
+      button: {
+        yes: {
+          visibility: buttonYes,
+          autofocus: buttonYesFocus
+        },
+        no: {
+          visibility: buttonNo,
+          autofocus: buttonNoFocus
+        },
+        retry: {
+          visibility: buttonRetry,
+          autofocus: buttonRetryFocus
+        },
+        cancel: {
+          visibility: buttonCancel,
+          autofocus: buttonCancelFocus
+        },
+        accept: {
+          visibility: buttonAccept,
+          autofocus: buttonAcceptFocus
+        }
+      }
+    }
+
+
+    return this.openModal(config);
+   }
+
+
+
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script>var COMPODOC_CURRENT_PAGE_DEPTH = 1;</script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+    </body>
+</html>

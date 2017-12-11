@@ -1,0 +1,39 @@
+$swal2-white:       #fff !default;
+$swal2-black:       #000 !default;
+$swal2-transparent: rgba($swal2-black, 0) !default;
+
+$swal2-success:        #a5dc86 !default;
+$swal2-success-border: rgba($swal2-success, .2) !default;
+$swal2-error:          #f27474 !default;
+$swal2-warning:        #f8bb86 !default;
+$swal2-info:           #3fc3ee !default;
+$swal2-question:       #87adbd !default;
+
+$swal2-overlay:        rgba($swal2-black, .4) !default;
+
+$swal2-close-button:               lighten($swal2-black, 80) !default;
+$swal2-close-button-hover:         #d55 !default;
+
+$swal2-input-border:               lighten($swal2-black, 85) !default;
+$swal2-input-border-focus:         #b4dbed !default;
+$swal2-input-box-shadow:           rgba($swal2-black, .06) !default;
+$swal2-input-box-shadow-focus:     #c4e6f5 !default;
+
+$swal2-validationerror-background: #ea7d7d !default;
+$swal2-validationerror-color:      $swal2-white !default;
+
+$stl-color-header: #001720;
+$stl-color-navbar: #002B36;
+$stl-color-sidenav: #0E3540;
+$stl-color-tableheader: #0E3540;
+$stl-color-workspace: #1B414C;
+$stl-color-pestania: #2D5864;
+$stl-color-boton: #2D5864;
+$stl-color-deshabilitado: #b3c2c7;
+$stl-color-font-titulos: #c9d8de;
+$stl-color-lineas: #7799a4;
+$stl-color-font-botones: #c9d8de;
+$stl-color-font-input: #141414;
+
+$stl-color-table-danger: #632e2e;
+$stl-color-table-success:#1b3e1b;

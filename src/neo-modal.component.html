@@ -1,0 +1,47 @@
+<div id="myModal" class="neoModal-dialog">
+  
+    <div class="modal-header neo-modal-header">
+      <button type="button" class="close" aria-label="Close" data-dismiss="myModal" (click)="informResult('None')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+      <div class="icons">
+          <div *ngIf= "config.type === 'success'" class="swal2-icon swal2-success swal2-animate-success-icon" style="display: block;">
+              <div class="swal2-success-circular-line-left" style="background: rgb(255, 255, 255);"></div>
+              <span class="swal2-success-line-tip swal2-animate-success-line-tip"></span>
+              <span class="swal2-success-line-long swal2-animate-success-line-long"></span>
+              <div class="swal2-success-ring"></div> <div class="swal2-success-fix" style="background: rgb(255, 255, 255);"></div>
+              <div class="swal2-success-circular-line-right" style="background: rgb(255, 255, 255);"></div>
+            </div>
+      
+            <div *ngIf= "config.type === 'error'" class="swal2-icon swal2-error swal2-animate-error-icon" style="display: block;">
+              <span class="swal2-x-mark swal2-animate-x-mark"><span class="swal2-x-mark-line-left"></span>
+              <span class="swal2-x-mark-line-right"></span></span>
+            </div>
+      
+            <div *ngIf= "config.type === 'warning'" class="swal2-icon swal2-warning" style="display: block;">!</div>
+      
+            <div *ngIf= "config.type === 'info'" class="swal2-icon swal2-info" style="display: block;">i</div>
+      
+            <div *ngIf= "config.type === 'question'" class="swal2-icon swal2-question" style="display: block;">?</div>
+      </div>
+    
+      <div *ngIf='config.title.visibility' class="neo-modal-title">{{config.title.text}}</div>
+      <div class="neo-modal-text">{{config.message}}</div>
+      <div class="neo-modal-content">
+        
+        <input #myInput *ngIf='config.input.visibility' class="swal-content__input" [(ngModel)]="config.input.value"  placeholder={{config.input.placeholder}} type='text' style="display: block;">
+      </div>
+      
+      <div class="neo-modal-footer">
+        <div #buttons class="neo-modal-button-container" style="display: block;">
+          <button *ngIf='config.button.cancel.visibility' type="button" class="neo-modal-button" (click)="informResult('Cancel')">{{config.button.cancel.text}}</button>
+          <button *ngIf='config.button.accept.visibility' type="button" class="neo-modal-button" (click)="informResult('Accept')">{{config.button.accept.text}}</button>
+          <button *ngIf='config.button.retry.visibility' type="button" class="neo-modal-button" (click)="informResult('Retry')">{{config.button.retry.text}}</button>
+          <button *ngIf='config.button.yes.visibility' type="button" class="neo-modal-button" (click)="informResult('Yes')">{{config.button.yes.text}}</button>
+          <button *ngIf='config.button.no.visibility' type="button" class="neo-modal-button" (click)="informResult('No')">{{config.button.no.text}}</button>
+        </div>
+      </div>
+ 
+</div> 
