@@ -47,6 +47,12 @@
                                 <li class="link">
                                   <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
                                 </li>
+                                <li class="link">
+                                        <a href="./license.html"
+                                    >
+                                        <span class="fa fa-file-text-o"></span>LICENSE
+                                    </a>
+                                </li>
                         </ul>
                     </li>
             
@@ -194,6 +200,12 @@
                                        <li class="link">
                                          <a href="./index.html"  class="active" ><span class="fa fa-file-text-o"></span>README</a>
                                        </li>
+                                       <li class="link">
+                                               <a href="./license.html"
+                                           >
+                                               <span class="fa fa-file-text-o"></span>LICENSE
+                                           </a>
+                                       </li>
                                </ul>
                            </li>
                    
@@ -312,40 +324,6 @@
                    <div class="content-data">
 
 <h1 id="ng-neo-modal">ng-neo-modal</h1>
-<h2 id="installation">Installation</h2>
-<p>To install this library, run:</p>
-<pre class="line-numbers"><code class="language-bash">$ npm install ng-neo-modal --save</code></pre><p>and then from your Angular <code>AppModule</code>:</p>
-<pre class="line-numbers"><code class="language-typescript">import { BrowserModule } from &#39;&#64;angular/platform-browser&#39;;
-import { NgModule } from &#39;&#64;angular/core&#39;;
-
-import { AppComponent } from &#39;./app.component&#39;;
-
-// Import library
-import { NeoModalModule } from &#39;ng-neo-modal&#39;;
-
-&#64;NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-
-    NeoModalModule.forRoot(),
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }</code></pre><p>Once library is imported inject service</p>
-<pre class="line-numbers"><code class="language-typescript">constructor(private NeoModalService: NeoModalService){}
-
-// In any function
-
-// Decission and resolve promise
-const result = await this.NeoModalService.decision(&#39;Do yo want to cotinue?&#39;, &#39;&#39;, &#39;&#39;);
-
-// Window alert
-this.NeoModalService.alert(&#39;This is an alert&#39;);</code></pre><h2 id="license">License</h2>
-<p>MIT © <a href="mailto:info@neocomplexx.com">neocomplexx</a></p>
 
 
 
