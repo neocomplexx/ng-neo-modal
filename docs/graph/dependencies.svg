@@ -103,25 +103,25 @@
 <polygon fill="#000000" stroke="#000000" points="404.5966,-140.9909 408.0965,-150.991 411.5966,-140.991 404.5966,-140.9909"/>
 </g>
 <!-- NeoModalComponent  -->
-<g id="node6" class="node">
+<g id="node7" class="node">
 <title>NeoModalComponent </title>
 <polygon fill="#fb8072" stroke="#000000" points="500.2037,-252 355.7963,-252 355.7963,-216 500.2037,-216 500.2037,-252"/>
 <text text-anchor="middle" x="428" y="-229.8" font-family="Times,serif" font-size="14.00" fill="#000000">NeoModalComponent </text>
 </g>
 <!-- NeoModalModule&#45;&gt;NeoModalComponent  -->
-<g id="edge4" class="edge">
+<g id="edge6" class="edge">
 <title>NeoModalModule&#45;&gt;NeoModalComponent </title>
 <path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M428,-187.1061C428,-187.1061 428,-205.991 428,-205.991"/>
 <polygon fill="#000000" stroke="#000000" points="424.5001,-205.9909 428,-215.991 431.5001,-205.991 424.5001,-205.9909"/>
 </g>
 <!-- NeoModalService -->
-<g id="node7" class="node">
+<g id="node6" class="node">
 <title>NeoModalService</title>
 <ellipse fill="#fdb462" stroke="#000000" cx="253" cy="-104" rx="81.0802" ry="18"/>
 <text text-anchor="middle" x="253" y="-99.8" font-family="Times,serif" font-size="14.00" fill="#000000">NeoModalService</text>
 </g>
 <!-- NeoModalService&#45;&gt;NeoModalModule -->
-<g id="edge6" class="edge">
+<g id="edge4" class="edge">
 <title>NeoModalService&#45;&gt;NeoModalModule</title>
 <path fill="none" stroke="#000000" d="M253,-122.1061C253,-141.3391 253,-169 253,-169 253,-169 358.2644,-169 358.2644,-169"/>
 <polygon fill="#000000" stroke="#000000" points="358.2644,-172.5001 368.2644,-169 358.2644,-165.5001 358.2644,-172.5001"/>

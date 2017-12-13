@@ -1,5 +1,5 @@
 # ng-neo-modal
-
+Modal replacement for javascript's popup boxes
 ## Installation
 
 To install this library, run:

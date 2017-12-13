@@ -1,6 +1,6 @@
 {
   "name": "neo-modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -16,18 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/repo"
+    "url": "https://github.com/neocomplexx/ng-neo-modal"
   },
   "author": {
     "name": "neocomplexx",
     "email": "neocomplexx@neocomplexx.com"
   },
   "keywords": [
-    "angular"
+    "angular","popup","alert","modal"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/repo/issues"
+    "url": "https://github.com/neocomplexx/ng-neo-modal/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",
