@@ -65,7 +65,7 @@ export class NeoModalService {
   public async success(msg: string): Promise<AlertResult> {
     const config = {
       title: {
-        text: 'Buen trabajo!'
+        text: '¡Buen trabajo!'
       },
       message: msg,
       type: 'success',
@@ -88,7 +88,7 @@ export class NeoModalService {
   public async warning(msg: string): Promise<AlertResult> {
     const config = {
       title: {
-        text: 'Cuidado!'
+        text: '¡Cuidado!'
       },
       message: msg,
       type: 'warning',
@@ -112,7 +112,7 @@ export class NeoModalService {
   public async error(msg: string): Promise<AlertResult> {
     const config = {
       title: {
-        text: 'Error!'
+        text: '¡Error!'
       },
       message: msg,
       type: 'error',
@@ -135,7 +135,7 @@ export class NeoModalService {
   public async info(msg: string): Promise<AlertResult> {
     const config = {
       title: {
-        text: 'Información importante!'
+        text: '¡Información importante!'
       },
       message: msg,
       type: 'info',
@@ -161,7 +161,7 @@ export class NeoModalService {
 
     const config = {
       title: {
-        text: 'Estas seguro?'
+        text: '¿Está seguro?'
       },
       message: questionMsg,
       type: 'question'

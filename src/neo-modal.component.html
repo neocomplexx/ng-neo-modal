@@ -36,10 +36,10 @@
       
       <div class="neo-modal-footer">
         <div #buttons class="neo-modal-button-container" style="display: block;">
-          <button *ngIf='config.button.cancel.visibility' type="button" class="neo-modal-button" (click)="informResult('Cancel')">{{config.button.cancel.text}}</button>
           <button *ngIf='config.button.accept.visibility' type="button" class="neo-modal-button" (click)="informResult('Accept')">{{config.button.accept.text}}</button>
-          <button *ngIf='config.button.retry.visibility' type="button" class="neo-modal-button" (click)="informResult('Retry')">{{config.button.retry.text}}</button>
+          <button *ngIf='config.button.cancel.visibility' type="button" class="neo-modal-button" (click)="informResult('Cancel')">{{config.button.cancel.text}}</button>
           <button *ngIf='config.button.yes.visibility' type="button" class="neo-modal-button" (click)="informResult('Yes')">{{config.button.yes.text}}</button>
+          <button *ngIf='config.button.retry.visibility' type="button" class="neo-modal-button" (click)="informResult('Retry')">{{config.button.retry.text}}</button>
           <button *ngIf='config.button.no.visibility' type="button" class="neo-modal-button" (click)="informResult('No')">{{config.button.no.text}}</button>
         </div>
       </div>
