@@ -1,11 +1,11 @@
 {
-  "name": "neo-modal",
-  "version": "1.0.2",
+  "name": "ng-neo-modal",
+  "version": "1.0.3",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n neo-modal -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n ng-neo-modal -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
@@ -19,11 +19,11 @@
     "url": "https://github.com/neocomplexx/ng-neo-modal"
   },
   "author": {
-    "name": "neocomplexx",
-    "email": "neocomplexx@neocomplexx.com"
+    "name": "Neocomplexx",
+    "email": "info@neocoplexx.com"
   },
   "keywords": [
-    "angular","popup","alert","modal"
+    "angular"
   ],
   "license": "MIT",
   "bugs": {
@@ -33,11 +33,10 @@
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
     "@angular/compiler-cli": "^4.0.0",
+    "@angular/forms": "^6.0.4",
     "@angular/core": "^4.0.0",
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
-    "@angular/forms": "4.0.0",
-    "@ng-bootstrap/ng-bootstrap": "^1.0.0-beta.6",
     "@compodoc/compodoc": "^1.0.0-beta.10",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
@@ -69,10 +68,11 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.4",
+    "@ng-bootstrap/ng-bootstrap": "1.0.0-beta.1",
+    "loadash": "^4.17.10"
   },
   "engines": {
     "node": ">=6.0.0"
-  },
-  "dependencies": {}
+  }
 }

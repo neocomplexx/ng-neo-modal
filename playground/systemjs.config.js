@@ -27,7 +27,7 @@
       // other libraries
       rxjs: 'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
-      'neo-modal': '../dist'
+      'ng-neo-modal': '../dist'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -42,8 +42,8 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      'neo-modal': {
-        main: 'neo-modal.umd.js',
+      'ng-neo-modal': {
+        main: 'ng-neo-modal.umd.js',
         defaultExtension: 'js'
       }
     }

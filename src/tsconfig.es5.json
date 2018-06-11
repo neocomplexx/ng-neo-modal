@@ -21,8 +21,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "neo-modal.js",
-    "flatModuleId": "neo-modal"
+    "flatModuleOutFile": "ng-neo-modal.js",
+    "flatModuleId": "ng-neo-modal"
   },
   "files": [
     "./index.ts"

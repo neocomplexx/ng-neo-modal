@@ -1,12 +1,9 @@
 /* tslint:disable:no-bitwise */
-
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/operator/do';
 import 'rxjs/add/operator/delay';
-import {NgbModal, NgbModalOptions, NgbActiveModal,  ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
-import { Component, Input, OnInit, AfterViewInit, OnChanges, ApplicationRef, ChangeDetectorRef, ViewChild } from '@angular/core';
+import { NgbActiveModal} from '@ng-bootstrap/ng-bootstrap';
+import { Component, OnInit, AfterViewInit, OnChanges, ChangeDetectorRef, ViewChild } from '@angular/core';
 import * as _ from 'lodash';
 
 @Component({
