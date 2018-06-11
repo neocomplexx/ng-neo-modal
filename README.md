@@ -1,19 +1,11 @@
 # ng-neo-modal
-
+Modal replacement for javascript's popup boxes
 ## Installation
 
 To install this library, run:
 
 ```bash
 $ npm install ng-neo-modal --save
-```
-
-## Consuming your library
-
-Once you have published your library to npm, you can import your library in any Angular application by running:
-
-```bash
-$ npm install ng-neo-modal
 ```
 
 and then from your Angular `AppModule`:
@@ -24,8 +16,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Import your library
-import { SampleModule } from 'ng-neo-modal';
+// Import library
+import { NeoModalModule } from 'ng-neo-modal';
 
 @NgModule({
   declarations: [
@@ -34,8 +26,8 @@ import { SampleModule } from 'ng-neo-modal';
   imports: [
     BrowserModule,
 
-    // Specify your library as an import
-    LibraryModule
+    // Specify library as an import
+    NeoModalModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -43,30 +35,16 @@ import { SampleModule } from 'ng-neo-modal';
 export class AppModule { }
 ```
 
-Once your library is imported, you can use its components, directives and pipes in your Angular application:
+Once your library is imported, inject service
 
-```xml
-<!-- You can now use your library component in app.component.html -->
-<h1>
-  {{title}}
-</h1>
-<sampleComponent></sampleComponent>
-```
+```typescript
+constructor(neoModalService: NeoModalService){}
 
-## Development
+// In any function
 
-To generate all `*.js`, `*.d.ts` and `*.metadata.json` files:
-
-```bash
-$ npm run build
-```
-
-To lint all `*.ts` files:
-
-```bash
-$ npm run lint
+this.neoModalService.alert('This is an alert');
 ```
 
 ## License
 
-MIT © [Neocomplexx](mailto:info@neocoplexx.com)
+MIT © [Neocomplexx](mailto:info@neocomplexx.com)
